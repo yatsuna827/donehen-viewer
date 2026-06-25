@@ -5,36 +5,3 @@ body {
   color: #33ff33;
   font-family: "Courier New", monospace;
 }
-
-.app {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-h1 {
-  font-size: 1.4rem;
-  color: #33ff33;
-}
-
-textarea {
-  background: #1a1a1a;
-  color: #33ff33;
-  border: 1px solid #33ff33;
-  padding: 12px;
-  font-family: "Courier New", monospace;
-  font-size: 14px;
-  resize: vertical;
-}
-
-textarea::placeholder {
-  color: #1a7a1a;
-}
-
-canvas {
-  border: 1px solid #33ff33;
-  background: #000;
-}

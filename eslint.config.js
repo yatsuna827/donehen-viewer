@@ -14,5 +14,18 @@ export default defineConfig([
       reactHooks.configs.flat.recommended,
       prettier,
     ],
+    rules: {
+      "no-irregular-whitespace": "off",
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
+      ],
+    },
+  },
+  {
+    files: ["**/__tests__/**/*.{ts,tsx}", "**/*.test.{ts,tsx}"],
+    rules: {
+      "@typescript-eslint/no-non-null-assertion": "off",
+    },
   },
 ]);
